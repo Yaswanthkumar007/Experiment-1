@@ -1,0 +1,23 @@
+#include <stdio.h>
+void main()
+{
+char x,y;
+printf ("endu martial status (m/v);\n');
+scanf("%c",&x);
+printf(" male or female (m / y) : \n");
+scanf("%c",&y);
+printf(" enter the age:\n");
+scanf ("%d",&a);
+if(x=='u'&&y=='m'&&a >= 30||x=='u' )
+{
+printf ("driver is eligible);
+}
+else if ( x=='u'&& y=='f'&&a>= 25) 
+{
+printf("driver is eligible");
+}
+else
+{
+Printf("not eligible");
+}
+}
