@@ -1,0 +1,32 @@
+Indude <stdio.h>
+void main() { 
+int a;
+Printf(" enter a value for a: \n");
+scarf ("%d",a);
+switch (a)
+case 1:
+printf ("Sunday");
+break;
+case 2:
+Printf(monday");
+break;
+Case 3 :
+Printf("Tuesday");
+break;
+case 4:
+Printf("Wednesday");
+break;
+Case 5:
+printf("Thusday");
+break;
+case 6:
+printf(" Friday");
+break;
+case 7:
+Printf("sturday");
+break;
+default:
+printf("Invalid number ");
+break;
+}
+}
