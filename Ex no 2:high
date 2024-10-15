@@ -1,11 +1,11 @@
 ude <stdio.h>
 #include <math.h>
 int main() {
-    int num;
+    int n;
     printf("Enter a number: ");
-    scanf("%d", &num);
-    double sqrt_num = sqrt(num);
-    if (sqrt_num == (int)sqrt_num)
+    scanf("%d", &n);
+    int ans = sqrt(n);
+    if (n == ans*ans)
     {
         printf("%d is a perfect square.\n", num);
     } 
